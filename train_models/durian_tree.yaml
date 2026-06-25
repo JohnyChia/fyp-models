@@ -1,0 +1,12 @@
+train: C:\fyp basic models\durian_datasets\durian_tree\images
+val: C:\fyp basic models\durian_datasets\durian_tree\images
+
+nc: 1
+names: ['Tree']
+
+roboflow:
+  workspace: johnys-workspace-oug8i
+  project: durian-tree-npgyr
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/johnys-workspace-oug8i/durian-tree-npgyr/dataset/1

@@ -1,0 +1,12 @@
+train: C:\fyp basic models\durian_datasets\durian\images
+val: C:\fyp basic models\durian_datasets\durian\images
+
+nc: 5
+names: ['d101', 'd175', 'd197', 'd2', 'd24']
+
+roboflow:
+  workspace: johnys-workspace-oug8i
+  project: durian-plimk-qm36o
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/johnys-workspace-oug8i/durian-plimk-qm36o/dataset/1

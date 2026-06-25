@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "Windows_Local_Models",
+            "path": "C:\\fyp basic models"
+        },
+        {
+            "name": "WSL_Durian_WS",
+            "path": "/home/johny/durian_ws"
+        }
+    ]
+}

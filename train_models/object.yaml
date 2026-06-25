@@ -1,0 +1,12 @@
+# C:/fyp basic models/data.yaml
+path: C:/fyp basic models  # 根目录
+train: C:/fyp basic models/durian_datasets/durian_leaf/images        # 训练集路径
+val: C:/fyp basic models/durian_datasets/durian_leaf/images            # 验证集路径
+
+names:
+  0: Leaf_Algal
+  1: Leaf_Blight
+  2: Leaf_Colletotrichum
+  3: Leaf_Healthy
+  4: Leaf_Phomopsis
+  5: Leaf_Rhizoctonia
