@@ -7,19 +7,12 @@ def generate_disease_composition(cleaned_csv, save_dir):
         os.makedirs(save_dir)
         
     df = pd.read_csv(cleaned_csv)
-    # 将 Healthy 也加入统计列表
     categories = ['Healthy', 'Algal', 'Blight', 'Colletotrichum', 'Phomopsis', 'Rhizoctonia']
-    
-    # 统计每一类的总叶片数
-    # 注意：确保 CSV 列名与这里完全一致，如果是 'Leaf_Healthy' 请修改
     counts = df[categories].sum()
-    
-    # 过滤掉 0 值
     counts = counts[counts > 0]
     
     plt.figure(figsize=(12, 8))
-    
-    # 颜色分配：健康用绿色，病害用暖色系
+
     colors = ['#2ca02c', '#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0']
     
     wedges, texts, autotexts = plt.pie(
