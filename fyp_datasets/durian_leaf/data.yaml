@@ -1,0 +1,11 @@
+train: train/images
+val: val/images
+test: test/images
+nc: 6
+names:
+  0: Leaf_Algal
+  1: Leaf_Blight
+  2: Leaf_Colletotrichum
+  3: Leaf_Healthy
+  4: Leaf_Phomopsis
+  5: Leaf_Rhizoctonia

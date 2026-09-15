@@ -1,0 +1,4 @@
+category,metrics/mAP50(B)_v11,metrics/mAP50(B)_v26,metrics/mAP50(B)_v8,metrics/mAP50-95(B)_v11,metrics/mAP50-95(B)_v26,metrics/mAP50-95(B)_v8
+durian,0.982,0.972,0.985,0.858,0.867,0.886
+durian_leaf,0.628,0.855,0.681,0.529,0.781,0.609
+durian_tree,0.932,0.891,0.974,0.688,0.64,0.693

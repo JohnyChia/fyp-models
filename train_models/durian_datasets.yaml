@@ -1,0 +1,27 @@
+
+durian:
+  train: C:\fyp basic models\durian_datasets\durian\images
+  val:   C:\fyp basic models\durian_datasets\durian\images
+  test:  C:\fyp basic models\durian_datasets\durian\images
+  nc: 5
+  names: ['d101', 'd175', 'd197', 'd2', 'd24']
+
+durian_leaf:
+  train: C:\fyp basic models\durian_datasets\durian_leaf\images
+  val:   C:\fyp basic models\durian_datasets\durian_leaf\images
+  test:  C:\fyp basic models\durian_datasets\durian_leaf\images
+  nc: 6
+  names:
+    0: Leaf_Algal
+    1: Leaf_Blight
+    2: Leaf_Colletotrichum
+    3: Leaf_Healthy
+    4: Leaf_Phomopsis
+    5: Leaf_Rhizoctonia
+
+durian_tree:
+  train: C:\fyp basic models\durian_datasets\durian_tree\images
+  val:   C:\fyp basic models\durian_datasets\durian_tree\images
+  test:  C:\fyp basic models\durian_datasets\durian_tree\images
+  nc: 1
+  names: ['Tree']

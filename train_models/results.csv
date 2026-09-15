@@ -1,0 +1,10 @@
+category,version,metrics/precision(B),metrics/recall(B),metrics/mAP50(B),metrics/mAP50-95(B),val/box_loss,val/cls_loss,val/dfl_loss
+durian,v8,0.986,0.982,0.985,0.886,,,
+durian,v11,0.984,0.97,0.982,0.858,,,
+durian,v26,0.983,0.959,0.972,0.867,,,
+durian_leaf,v8,0.742,0.721,0.681,0.609,,,
+durian_leaf,v11,0.621,0.688,0.628,0.529,,,
+durian_leaf,v26,0.878,0.835,0.855,0.781,,,
+durian_tree,v8,0.973,0.979,0.974,0.693,,,
+durian_tree,v11,0.948,0.937,0.932,0.688,,,
+durian_tree,v26,0.906,0.863,0.891,0.64,,,

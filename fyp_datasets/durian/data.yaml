@@ -1,0 +1,10 @@
+train: train/images
+val: val/images
+test: test/images
+nc: 5
+names:
+  0: d101
+  1: d175
+  2: d197
+  3: d2
+  4: d24
