@@ -3,7 +3,7 @@ import os
 import glob
 import numpy as np
 import csv
-from ensemble_boxes import *
+from ensemble_boxes import weighted_boxes_fusion
 from ultralytics import YOLO
 
 leaf_models = [YOLO(r'C:/fyp basic models/runs/detect/durian_leaf/v8/weights/best.pt'),

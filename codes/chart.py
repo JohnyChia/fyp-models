@@ -12,10 +12,9 @@ def generate_disease_composition(cleaned_csv, save_dir):
     counts = counts[counts > 0]
     
     plt.figure(figsize=(12, 8))
-
     colors = ['#2ca02c', '#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0']
     
-    wedges, texts, autotexts = plt.pie(
+    plt.pie(
         counts, 
         labels=counts.index, 
         autopct='%1.1f%%', 
